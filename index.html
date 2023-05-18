@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leticia Simões - Do While 2022</title>
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <script defer src="scripts/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="card" data-tilt>
+
+      <main class="front">
+        
+        <div class="container">
+
+          <div class="form"></div>
+
+          <i class="ri-menu-line"></i>
+
+          <div class="avatar">
+            <span class="avatarBrand">
+              <img src="assets/build.svg">
+            </span>
+            <img class="avatarImage" src="">
+          </div>
+
+          <h1 class="userName"></h1>
+          <a class="userGithub" href="" target="_blank">
+            <img src="assets/github.svg"/>
+            <span class="userNick"></span>
+          </a>
+          <p class="userDescription"></p>
+
+          <ul class="userLinks">
+            <li>
+              <a href=""  target="_blank">
+                <img src="assets/linkedin.svg" alt="ícone linkedin"/>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank" >
+                <img src="assets/instagram.svg" alt="ícone instagram"/>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <img src="assets/facebook.svg" alt="ícone facebook"/>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <img src="assets/twitter.svg" alt="ícone twitter"/>
+              </a>
+            </li>
+          </ul>
+
+          <button class="arrow-left" onclick="turn3d()">
+            <img src="assets/arrow-right.svg" alt="">
+          </button>
+
+        </div>
+
+      </main>
+
+      <main class="back">
+        
+        <div class="container">
+
+          <div class="form"></div>
+
+          <div class="content">
+            <img class="logoDoWhile"src="assets/dowhile.svg">
+
+            <h2 class="titleDoWhile">Juntos, vamos <br>
+            construir o futuro.</h2>
+
+            <p class="descriptionDoWhile">Faça parte da construção do futuro através da 
+            programação nesse evento online e gratuito.</p>
+
+            <p class="dateDoWhile">01 e 02 de dezembro</p>
+
+            <a class="btnDoWhile" href="https://dowhile.io/inscricao" target="_blank">Garantir meu lugar agora</a>
+
+            <button class="arrow-right" onclick="turn3d()">
+             <img class="" src="assets/arrow-left.svg" alt="">
+            </button>
+
+          </div>
+
+        </div>
+
+      </main>
+ 
+    </div>
+
+    <div class="formData">
+      <div class="containerData">
+        <img src="assets/dowhile.svg" alt="">
+        <label class="formTitle">Crie seu Card abaixo</label>
+        <i class="ri-close-line"></i>
+        
+        <label class="insertNameLabel" for="input">Insira seu Usuário no GitHub </label>
+          <input class="insertName" type="text" id="input" placeholder="rhuanbello">
+        <label class="insertNameLabel" for="input">Insira suas Redes Sociais</label>
+          <input class="insertName insertLinkedin" type="text" id="input" placeholder="https://www.linkedin.com/in/leesimoes/">
+        
+          <input class="insertName insertInstagram" type="text" id="input" placeholder="https://instagram.com/simoes_lee">
+        
+          <input class="insertName insertFacebook" type="text" id="input" placeholder="https://www.facebook.com/leticiasimoes/">
+        
+          <input class="insertName insertTwitter" type="text" id="input" placeholder="https://twitter.com/letxcoding">
+        <button onclick="changeInfos()">Enviar</button>
+
+      </div>
+    </div>
+    
+  </body>
+</html>
